@@ -1,9 +1,8 @@
 def check_divisibility(num):
-  num = int(input("Enter a number: "))
-print(check_divisibility(num))
-if num % 5 == 0:
-  print("True")
-  else:
-print("False")
-
-    
+  # // Expected output is "TRUE" or "FALSE"
+  sum = int(input("Enter a number: "))
+print(check_divisibility(sum))
+if sum % 5 == 0:
+   print("TRUE")
+else:
+   print("FALSE")
